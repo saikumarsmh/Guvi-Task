@@ -1,10 +1,15 @@
-read var1
-read var2
-if [ var1 eq var2 ]
+   echo "welcome" | tee guvi{1..8}.txt > /dev/null
+read -p "Enter the first Value :" var1
+read -p "Enter the second Value :" var2
+if [ $var1 eq $var2 ]
 then
 tar -cf test.tar *
-git push -u origin main
+git add *
+git commit -m "pushing to master"
+git push -u guvissh master
 else
-git push -u origin develop
+git add *
+git commit -m "pusshing to develop"
+git push -u guvissh develop
 fi
 
