@@ -1,0 +1,49 @@
+ls -la
+pwd
+cd
+cd ~
+mkdir -p directoryname
+touch filename
+cat filename
+vi filename
+cp -R source destination
+mv sourcefile destination
+du -sh
+df
+rsync -avH source destination
+curl
+wget
+telnet
+ipconfig
+kill
+hostname
+rename
+head
+tail
+more
+less
+su - username
+sed
+find . -name "filename" 
+ssh
+ping 
+rm -rf
+ln fn linfn 
+ln -s f lfn
+yum install packageName
+service servicename options
+systemctl option services
+ps -ef
+grep text filename
+ssh-keygen
+tar -cvf
+tar -xvf
+useradd
+userdel
+passwd
+groupadd
+usermod -L username
+chmod
+chgrp
+chown
+
